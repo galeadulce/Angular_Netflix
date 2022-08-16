@@ -1,0 +1,17 @@
+
+<div class="scroll_vertical">
+<section class = "media">
+    <h2> {{films.title}} </h2>
+        <ul>
+            
+            <li *ngFor = "let film of films.films">
+                
+                <img src="{{film.src}}" alt="{{film.alt}}">
+            </li>
+        
+        </ul>
+    
+</section>
+</div>
+
+

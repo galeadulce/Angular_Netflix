@@ -1,0 +1,28 @@
+
+*{
+ margin: 0;
+ padding: 0;
+
+}
+li{
+
+    list-style-type: none;
+}
+
+a{
+ text-decoration: none;
+    
+}
+
+//global styles
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@300&display=swap');
+body{
+
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+ 
+
+
+}
+

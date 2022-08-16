@@ -1,0 +1,51 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 20px;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  h2 {
+    color: white;
+    padding-bottom:10px;
+    @media (max-width: 600px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+  }
+
+  img {
+    width: 200px;
+    height: 280px;
+    border: solid 2px white;
+    object-fit: cover;
+    margin: 8px;
+
+  
+
+    @media (max-width: 600px) {
+      
+      object-fit: cover;
+      width: 220px;
+      height: 250px;
+      
+    }
+  }
+ }
+
+
+
+
+
